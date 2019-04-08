@@ -60,7 +60,7 @@ li:nth-of-type(1) a:hover{
 	width: 10%;
 	height: 10%;
 	border-radius: 10px;
-	float: left;
+	float: center;
 	cursor: pointer;
 	padding: 5px;
 	margin: 10px 5px;

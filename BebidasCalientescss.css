@@ -54,13 +54,13 @@ li:nth-of-type(1) a:hover{
 }
 #galeria_miniaturas{
 	display: table;
-	margin: 0 auto
+	margin: 0 auto;
 }
 .miniatura{
 	width: 10%;
 	height: 10%;
 	border-radius: 10px;
-	float: left;
+	float: center;
 	cursor: pointer;
 	padding: 5px;
 	margin: 10px 5px;

@@ -3,13 +3,13 @@
 div.lista{
 width: 16%; 
 height: 50%; 
-background-color:#000;
+background-color:#1A1A1A;
 float: left;
 }
 
 /*Any Cordova*/
 h1{
-	color: black;
+	color: #FFF;
 	text-align:left;
 	text-decoration: underline;
 }

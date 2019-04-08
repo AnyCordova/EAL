@@ -20,6 +20,7 @@ nav ul{
 	list-style: none;
 }
 
+
 li{
 	display: inline-block;
 	margin: 18px -5px;
@@ -60,7 +61,7 @@ li:nth-of-type(1) a:hover{
 	width: 10%;
 	height: 10%;
 	border-radius: 10px;
-	float: left;
+	float: center;
 	cursor: pointer;
 	padding: 5px;
 	margin: 10px 5px;

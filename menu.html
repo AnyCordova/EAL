@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		#navegacion{
+			margin: auto;
+			width: 500px;
+		}
+		ul, ol{
+			list-style: none;
+		}
+		#lista li a{
+			background: black;
+			color: white;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block;
+			border-radius: 10px;
+		}
+		#lista > li{
+			float: left;
+		}
+		#lista li a:hover{
+			background: green;
+		}
+		#lista li ul{
+			display: none;
+			position: absolute;
+		}
+		#lista li:hover > ul{
+			display: block;
+		}
+		<!--Esta parte es para una lista despegable dentro de otra lista despegable-->
+		#lista li ul li{
+			position: relative;
+		}
+		#lista li ul li ul{
+			right: -100px;
+			top: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div id="navegacion">
+		<ul id="lista">
+			<li><a href="">INICIO</a>
+				<ul>
+					<li><a href="">ANUNCIOS</a></li>
+					<li><a href="">VISSITAS</a></li>
+					<li><a href="">TROFEOS</a></li>
+				</ul>
+			</li>
+			<li><a href="">DESCARGAS</a>
+				<ul>
+					<li><a href="">videos</a></li>
+					<li><a href="">gallerry</a></li>
+					<li><a href="">CORREOS</a></li>
+				</ul>
+			</li>
+			<li><a href="">CONTACTOS</a>
+				<ul>
+					<li><a href="">INICIO</a></li>
+					<li><a href="">DESCARGAS</a></li>
+					<li><a href="">CONTACTOS</a>
+						<ul>
+							<li><a href="">videos</a></li>
+							<li><a href="">gallerry</a></li>
+							<li><a href="">CORREOS</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
